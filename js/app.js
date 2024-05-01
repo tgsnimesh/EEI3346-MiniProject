@@ -27,7 +27,7 @@ const app = Vue.createApp({
           name: "Community Engagement",
           url: "./community-engagement.html",
         },
-        { id: 4, name: "Feedback", url: "./Feedback.html" },
+        { id: 4, name: "Feedback", url: "./feedback.html" },
       ],
       upcommingEvents: [
         {
