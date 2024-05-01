@@ -1,0 +1,41 @@
+.become-member {
+  margin-top: 5rem;
+}
+.become-member .sub-title {
+  margin-bottom: 2rem;
+}
+
+.become-member .member-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.become-member .member-content img {
+  box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.4);
+}
+.become-member .member-content .content {
+  margin: 1rem 0 1rem 2rem;
+}
+
+.become-member .member-content .content p {
+  border-bottom: 1px solid #21273055;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.become-member .member-content .content p span {
+  font-weight: 500;
+}
+
+.become-member .member-content .content ul {
+  margin-left: 1rem;
+}
+.become-member .member-content .content ul li {
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+.become-member .member-content .content ul li span {
+  font-weight: 600;
+}

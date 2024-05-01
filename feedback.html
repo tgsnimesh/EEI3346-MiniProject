@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Globe - Feedback</title>
+
+    <!-- link Vue CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- link font wesome icons -->
+    <script
+      src="https://kit.fontawesome.com/1ca395b51b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/main_carousel.css" />
+    <link rel="stylesheet" href="./style/feedback.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav-bar :nav-items="navItems"></nav-bar>
+    <!-- solution section -->
+    <div class="main-carousel-container">
+      <div class="overlaid-text">
+        <h1><span>Gr</span>een<br /><span>Gl</span>obe Join</h1>
+        <h2>the Conversation - Let Your Voice Be Heard</h2>
+        <p>
+          Share your thoughts, ideas, and feedback on water pollution in the
+          Urban Wetland Park. Together, we can make a difference and work
+          towards a cleaner, healthier environment for all.
+        </p>
+        <a href="#" class="btn-learn-more"
+          >Take Action<i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+    <!-- get in tuch -->
+    <div class="get-in-tuch container section">
+      <h2 class="sub-t">Get in Touch!</h2>
+      <h3>Contact Us</h3>
+      <div class="content">
+        <form action="">
+          <h3>Need Support !</h3>
+          <p>Contact us for a quote. help to join the them.</p>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your E-Mail" />
+          <input type="text" placeholder="Your Subject" />
+          <textarea
+            name=""
+            id=""
+            rows="4"
+            placeholder="Type your massage here..."
+          ></textarea>
+          <div class="btn">
+            <a href="#" class="btn-more"
+              >Send Masssage<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </form>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26647.185951230604!2d79.88740030307703!3d6.875276764036689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a1600dfb6e1%3A0x2807f5b09154ef7d!2sPagoda%2C%20Nugegoda%2C%20Sri%20Lanka!5e0!3m2!1sen!2ssg!4v1714486401269!5m2!1sen!2ssg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- comment area -->
+    <div class="comment-section container section">
+      <h2 class="sub-title">Yor Feedback</h2>
+      <div class="wrapper">
+        <div class="comment-wrapper">
+          <div
+            class="comment-container"
+            v-for="{name, email, comment, like, reply} in feedbacks"
+          >
+            <div class="comment-box">
+              <div class="top">
+                <img src="./assets/user.png" width="100" alt="" />
+                <div class="name">
+                  <p class="user-name">{{ name }}</p>
+                  <p class="email">{{email}}</p>
+                </div>
+              </div>
+              <div class="comment">
+                <p>{{comment}}</p>
+              </div>
+              <div class="bottom">
+                <div><span>{{ like }}</span>Likes</div>
+                <div><span>{{ reply }}</span>Reply</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="get-in-tuch" style="margin: 0">
+          <div class="content">
+            <form action="">
+              <h3 class="comment-title">
+                Share Your Voice, Shape The Narrative
+              </h3>
+              <p>
+                Share your thoughts, feedback, or questions about water
+                pollution in the Urban Wetland Park. Your input helps us improve
+                and take meaningful action!
+              </p>
+              <input type="text" placeholder="User Name" id="name" />
+              <input type="email" placeholder="E-Mail" id="email" />
+              <textarea
+                name=""
+                id="comment"
+                rows="4"
+                placeholder="Type your comment here..."
+              ></textarea>
+              <div class="btn">
+                <a href="" class="btn-more" @click.prevent="addComment()"
+                  >Send Masssage<i class="fa-solid fa-arrow-left"></i
+                ></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer-vue :nav-items="navItems"></footer-vue>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

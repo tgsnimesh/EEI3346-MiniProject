@@ -1,0 +1,24 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.about-section .about-img img {
+  width: 450px;
+  box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  padding: 1rem;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+.about-section:hover .about-img img {
+  padding: 0;
+}
+.about-section .about {
+  margin-left: 3rem;
+}

@@ -1,0 +1,45 @@
+.main-carousel-container {
+  position: relative;
+  color: #fff;
+  background: linear-gradient(190deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("../assets/hero-img-solution.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
+    url("../assets/hero-img-solution.jpg");
+  margin-top: 4rem;
+  color: #fff;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 3rem;
+}
+
+.case-container {
+  margin-top: 5rem;
+}
+
+.case-container .info .case-info p {
+  text-indent: 0;
+  margin-top: 1rem;
+}
+.case-container .info .case-info p span {
+  font-weight: 700;
+}
+
+.case-gallery > img {
+  height: 400px;
+}
+
+.gallery .case-container:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.gallery .case-container:nth-child(even) .case-gallery .nexted-img {
+  right: -1100px;
+}

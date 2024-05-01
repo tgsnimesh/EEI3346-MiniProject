@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Globe - Solution</title>
+
+    <!-- link Vue CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- link font wesome icons -->
+    <script
+      src="https://kit.fontawesome.com/1ca395b51b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/main_carousel.css" />
+    <link rel="stylesheet" href="./style/case-gallery.css" />
+    <link rel="stylesheet" href="./style/solution.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav-bar :nav-items="navItems"></nav-bar>
+    <!-- solution section -->
+    <div class="main-carousel-container">
+      <div class="overlaid-text">
+        <h1><span>Gr</span>een<br /><span>Gl</span>obe</h1>
+        <h2><span>.</span></h2>
+        <p>
+          Join us in taking <span>practical</span> steps to combat water
+          pollution and <span>preserve</span> the <span>beauty</span> of the
+          Urban Wetland Park.
+        </p>
+        <a href="#" class="btn-learn-more"
+          >Take Action<i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+    <!-- Causes section -->
+    <div class="cases-section" id="case-container">
+      <!-- title -->
+      <div class="container main-title">
+        <h2>
+          Solution of Water Pollution<br /><span>U</span>rban
+          <span>W</span>etland <span>P</span>ark
+        </h2>
+      </div>
+      <!-- section -->
+      <div class="gallery">
+        <div class="case-container container">
+          <div class="info">
+            <div class="case-info">
+              <div class="case-content">
+                <h3 class="title">Responsible Waste Disposal.</h3>
+                <p>
+                  <span>Proper Trash Disposal - </span>Encourage visitors to
+                  dispose of trash in designated bins and avoid littering in or
+                  around the park.
+                </p>
+                <p>
+                  <span>Recycling Awareness - </span> Provide information on the
+                  importance of recycling and how to properly recycle plastic,
+                  glass, and other materials to reduce waste pollution.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-gallery">
+            <img src="./assets/card-img/4.jpg" alt="" width="400" />
+            <div class="nexted-img">
+              <div class="img-frame">
+                <img src="./assets/card-img/3.jpg" alt="" width="220" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-container container">
+          <div class="info">
+            <div class="case-info">
+              <div class="case-content">
+                <h3 class="title">Water Conservation.</h3>
+                <p>
+                  <span>Native Planting - </span> Promote the planting of native
+                  vegetation around the lake to help stabilize soil, prevent
+                  erosion, and filter pollutants from entering the water.
+                </p>
+                <p>
+                  <span>Rainwater Harvesting - </span> Educate residents and
+                  businesses in the area about the benefits of rainwater
+                  harvesting systems to reduce reliance on municipal water
+                  sources and minimize runoff pollution.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-gallery">
+            <img src="./assets/card-img/5.jpg" alt="" width="400" />
+            <div class="nexted-img">
+              <div class="img-frame">
+                <img src="./assets/card-img/6.jpg" alt="" width="300" />
+              </div>
+              <div class="img-frame">
+                <img src="./assets/card-img/2.jpg" alt="" width="220" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-container container">
+          <div class="info">
+            <div class="case-info">
+              <div class="case-content">
+                <h3 class="title">
+                  Supporting Local Water Protection Initiatives.
+                </h3>
+                <p>
+                  <span>Community Engagement - </span>Encourage community
+                  involvement in monitoring water quality, reporting pollution
+                  incidents, and advocating for improved water management
+                  practices.
+                </p>
+                <p>
+                  <span>Policy Advocacy - </span>Advocate for stronger
+                  environmental regulations and enforcement measures to prevent
+                  pollution and hold polluters accountable for their actions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-gallery">
+            <img src="./assets/card-img/8.jpg" alt="" width="400" />
+            <div class="nexted-img">
+              <div class="img-frame">
+                <img src="./assets/card-img/7.jpg" alt="" width="300" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer-vue :nav-items="navItems"></footer-vue>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

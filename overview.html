@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Globe - Overview</title>
+
+    <!-- link Vue CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- link font wesome icons -->
+    <script
+      src="https://kit.fontawesome.com/1ca395b51b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/main_carousel.css" />
+    <link rel="stylesheet" href="./style/overview.css" />
+    <link rel="stylesheet" href="./style/case-gallery.css" />
+    <link rel="stylesheet" href="./style/section-card.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav-bar :nav-items="navItems"></nav-bar>
+    <!-- overview section -->
+    <div class="main-carousel-container">
+      <div class="overlaid-text">
+        <h1><span>Gr</span>een<br /><span>Gl</span>obe Water</h1>
+        <h2>Pollution<span> Overview.</span></h2>
+        <p>
+          Water pollution poses a significant threat to the ecological balance
+          of the <span>Urban Wetland Park in Nugegoda</span>. With stagnant
+          water and a lack of natural flow, the park's lake is particularly
+          vulnerable to contamination from various sources.
+        </p>
+        <a href="#" class="btn-learn-more"
+          >Take Action<i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+    <main>
+      <!-- Causes section -->
+      <div class="cases-section" id="case-container">
+        <!-- title -->
+        <div class="container main-title">
+          <h2>
+            Causes of Water Pollution in<br /><span>U</span>rban
+            <span>W</span>etland <span>P</span>ark
+          </h2>
+        </div>
+        <!-- section -->
+        <div class="case-container container">
+          <div class="info">
+            <div class="case-info">
+              <div class="case-content">
+                <h3 class="title">1. Stagnant Water.</h3>
+                <p>
+                  The absence of proper water movement mechanisms allows
+                  pollutants to accumulate and stagnate in the lake. This
+                  stagnant condition facilitates the growth of algae and
+                  bacteria, further deteriorating water quality.
+                </p>
+              </div>
+              <div class="case-content">
+                <h3 class="title">2. Human Waste and Debris.</h3>
+                <p>
+                  Despite the park's natural beauty, visitors often contribute
+                  to pollution by littering plastics and garbage into the lake.
+                </p>
+              </div>
+              <div class="case-content">
+                <h3 class="title">3. Direct Discharge.</h3>
+                <p>
+                  Surrounding homes and businesses may unknowingly contribute to
+                  water pollution by directing their wastewater or drainage
+                  systems directly into the lake.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-gallery">
+            <img src="./assets/card-img/overview-1.jpg" alt="" width="400" />
+            <div class="nexted-img">
+              <div class="img-frame">
+                <img src="./assets/card-img/9.jpg" alt="" width="300" />
+              </div>
+              <div class="img-frame">
+                <img src="./assets/card-img/2.jpg" alt="" width="220" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Effects section -->
+      <div class="about-section efect-section section container">
+        <div class="about-img">
+          <img src="./assets/efect.jpg" alt="about-GreenGlobe" />
+        </div>
+        <div class="about">
+          <h2 class="sub-title">Effects of Water Pollution</h2>
+          <div class="des">
+            <p>
+              Polluted water can harm fish, birds, and other wildlife living in
+              and around the lake, disrupting the park's delicate ecosystem.
+            </p>
+            <p>
+              Contaminated water poses health risks to park visitors and nearby
+              residents who may come into contact with it, leading to waterborne
+              illnesses and other health issues.
+            </p>
+            <p>
+              Continued pollution can lead to the loss of biodiversity,
+              degradation of habitat, and overall decline in the park's
+              environmental quality.
+            </p>
+          </div>
+          <a href="./solution.html" class="btn"
+            >Take Action <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer-vue :nav-items="navItems"></footer-vue>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

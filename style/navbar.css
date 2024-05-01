@@ -1,0 +1,77 @@
+.nav-bar {
+  background-color: #222831;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #eeeeee;
+}
+
+.nav-bar .logo {
+  cursor: pointer;
+}
+.nav-bar .logo h1 {
+  font-weight: 600;
+  font-size: 2em;
+  position: relative;
+}
+.nav-bar .logo h1 span {
+  color: #92bf1f;
+  font-weight: 500;
+  font-size: 0.9em;
+  position: absolute;
+  left: 48px;
+  bottom: -15px;
+  text-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar .nav-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .nav-links-container .nav-link {
+  margin-left: 1rem;
+  color: #eeeeee;
+}
+
+.nav-bar .nav-links-container .nav-link a {
+  color: #eeeeee;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  position: relative;
+  transition: 0.3s;
+}
+.nav-bar .nav-links-container .nav-link a:hover {
+  color: #92bf1f;
+}
+.nav-bar .active a {
+  color: #92bf1f !important;
+}
+.nav-bar .nav-links-container .nav-link a:hover span {
+  color: #eeeeee;
+}
+.nav-bar .active a span {
+  color: #eeeeee !important;
+}
+.nav-bar .nav-links-container .nav-link a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  background-color: #92bf1f;
+  right: 0;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+.nav-bar .nav-links-container .nav-link a:hover::after {
+  width: 100%;
+}
+.nav-bar .nav-links-container .active a::after {
+  width: 100% !important;
+}
+.nav-bar .nav-links-container .nav-link a span {
+  color: #92bf1f;
+  font-weight: 600;
+}

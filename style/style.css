@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto 0 auto;
+}
+
+.main-title h2 {
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 460px;
+  margin: auto;
+  margin-top: 3rem;
+}
+.main-title h2 span {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #92bf1f;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.main-title h2::after {
+  content: "";
+  width: 70px;
+  height: 8px;
+  background-color: #92bf1f;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  transition: 0.2s;
+}
+
+.section .sub-title {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.section .sub-title {
+  padding-bottom: 0.8rem;
+  position: relative;
+  transition: 0.2s;
+}
+
+.section .sub-title::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #222831;
+  position: absolute;
+  left: 84px;
+  bottom: 0;
+}
+.section .sub-title::after {
+  content: "";
+  width: 80px;
+  height: 5px;
+  background-color: #92bf1f;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.section .about .des {
+  margin-top: 1rem;
+}
+.section .about .des p {
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+.section .about .des p:first-child {
+  text-indent: 2em;
+}
+.section .about .des p:first-child::first-letter {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.section .about .btn {
+  color: #222831;
+  font-weight: 500;
+  border: 2px solid #222831;
+  border-radius: 3px;
+  margin-top: 1rem;
+  padding: 0.5rem 1.8rem;
+  display: inline-block;
+  transition: 0.2s;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2);
+  float: right;
+}
+.section .about .btn:hover {
+  border-style: dashed;
+}
+
+.btn-more {
+  color: #222831;
+  border: 2px solid #222831;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-top: 1rem;
+  padding: 0.5rem 1.8rem;
+  display: inline-block;
+  transition: 0.2s;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.4);
+}
+.btn-more i {
+  color: #eeeeee;
+  margin-left: 0.5rem;
+  transition: 0.2s;
+}
+.btn-more:hover {
+  border-style: dashed;
+  border-color: #6c8e17;
+  color: #6c8e17;
+}
+.btn-more:hover i {
+  margin-left: 1rem;
+  color: #6c8e17;
+}

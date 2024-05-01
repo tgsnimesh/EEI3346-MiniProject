@@ -1,0 +1,69 @@
+.member-form {
+  margin: 3rem auto;
+}
+
+.member-form .title p {
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-top: 6rem;
+}
+.member-form .sub-title p {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.member-form .des {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  font-size: 0.85em;
+  margin-top: 0.5rem;
+}
+.member-form form {
+  width: 600px;
+  margin: auto;
+  padding: 1rem;
+}
+.member-form form .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.member-form form .name .input-section {
+  margin-right: 1rem;
+}
+.member-form form .name .input-section:last-child {
+  margin-right: 0rem;
+}
+.member-form form .input-section label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.member-form form .input-section {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.member-form form .input-section input {
+  width: 100%;
+  padding: 0.3rem;
+  outline-color: #92bf1f;
+}
+
+.member-form form .input-section textarea {
+  width: 100%;
+  resize: vertical;
+  outline-color: #92bf1f;
+  padding: 0.5rem;
+}
+
+.member-form form .btn {
+  text-align: center;
+}
+.member-form form .btn-more {
+  font-size: 0.9em;
+  border-width: 2px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Globe</title>
+
+    <!-- link Vue CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- link font wesome icons -->
+    <script
+      src="https://kit.fontawesome.com/1ca395b51b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link external css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/main_carousel.css" />
+    <link rel="stylesheet" href="./style/section-card.css" />
+    <link rel="stylesheet" href="./style/galery-section.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav-bar :nav-items="navItems"></nav-bar>
+    <!-- main section -->
+    <main>
+      <!-- main carousel -->
+      <div class="main-carousel-container">
+        <div class="overlaid-text">
+          <h1><span>Gr</span>een<br /><span>Gl</span>obe</h1>
+          <h2>
+            Empowering <span>Change</span> for a <span>Cleane</span>r
+            Future<span>.</span>
+          </h2>
+          <p>
+            Act Now for <span>Cleane</span>r Rivers<span>,</span> Join the
+            Movement for Environmental Change<span>,</span> <br />Discover
+            Solutions to Water
+            <span>Pollution.</span>
+          </p>
+          <a href="./solution.html" class="btn-learn-more"
+            >Take Action<i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+      <!-- about section -->
+      <div class="about-section section container">
+        <div class="about-img">
+          <img src="./assets/about-img.jpg" alt="about-GreenGlobe" />
+        </div>
+        <div class="about">
+          <h2 class="sub-title">About GreenGlobe</h2>
+          <div class="des">
+            <p>
+              GreenGlobe is dedicated to protecting our environment. Our mission
+              is encourage sustainable living and fight against environmental
+              harm.
+            </p>
+            <p>
+              We believe in the power of every person to make a difference.
+              Through education, advocacy, and community involvement, we inspire
+              action on urgent environmental issues like water pollution.
+            </p>
+            <p>
+              Together, we're building a future where nature flourishes and
+              everyone can enjoy clean air, water, and landscapes.
+            </p>
+          </div>
+          <a href="./overview.html" class="btn">Learn more...</a>
+        </div>
+      </div>
+      <!-- featured content section -->
+      <div class="featured-content galery-section container section">
+        <div class="content">
+          <h2 class="sub-title">Did you know?</h2>
+          <p>
+            The river near our local park suffers from severe pollution, with
+            stagnant water and a lack of effective cleaning methods exacerbating
+            the problem <a href="./overview.html#case-container">see more...</a>
+          </p>
+          <div class="sub-content">
+            <h2 class="sub-title">Ready to make a difference?</h2>
+            <p>
+              Learn practical steps to clean up our river. From reducing plastic
+              waste to organizing local cleanup efforts, find out how you can
+              help restore our waterways and protect our environment
+              <a href="">see more...</a>
+            </p>
+          </div>
+        </div>
+        <div class="gallery-container">
+          <div class="gallery">
+            <div class="back-pannel">
+              <img src="./assets/card-img/2.jpg" alt="" width="350" />
+              <img src="./assets/card-img/1.jpg" alt="" width="450" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer-vue :nav-items="navItems"></footer-vue>
+
+    <!-- link app js vue instance -->
+    <script src="./js/app.js">
+      import pageIndex from './js/index.js'
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

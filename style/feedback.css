@@ -1,0 +1,132 @@
+.get-in-tuch {
+  margin-top: 3rem;
+}
+.get-in-tuch h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+.sub-t {
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+}
+.get-in-tuch .content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.get-in-tuch .content form {
+  width: 500px;
+}
+.get-in-tuch .content form h3 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.get-in-tuch .content form p {
+  margin-bottom: 1rem;
+}
+.get-in-tuch .content form input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  outline-color: #92bf1f;
+}
+.get-in-tuch .content form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  resize: vertical;
+  outline-color: #92bf1f;
+}
+
+.get-in-tuch .content iframe {
+  width: 550px;
+  box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.4);
+}
+.btn-more {
+  text-align: center;
+  width: 100%;
+}
+
+.comment-section .comment-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-section .comment-container .comment-box {
+  border: 2px solid #212730cb;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+  cursor: pointer;
+  width: 100%;
+}
+.comment-section .comment-container .comment-box:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.19);
+}
+.comment-section .comment-container .comment-box .top {
+  display: flex;
+  align-items: flex-start;
+}
+.comment-section .comment-container .comment-box .top .name .user-name {
+  font-weight: 600;
+}
+.comment-section .comment-container .comment-box .top .name .email {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.comment-section .comment-container .comment-box .top img {
+  width: 50px;
+  margin-right: 0.5rem;
+  box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 8px 47px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+.comment-section .comment-container .comment-box .comment {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+.comment-section .comment-container .comment-box .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+.comment-section .comment-container .comment-box .bottom div {
+  margin-left: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.comment-section .comment-container .comment-box .bottom div span {
+  margin-right: 0.2rem;
+  font-weight: 600;
+  color: #212730d8;
+}
+
+.sub-title {
+  margin: 2rem 0;
+  margin-top: 4rem;
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.comment-wrapper {
+  width: 50%;
+}
