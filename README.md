@@ -28,7 +28,7 @@ directly into the lake.</p>
 </br>
 </br>
 <h2>Architectural diagram</h2>
-<img src="">
+<img src="./read-me-res/Web capture_14-5-2024_20136_.jpeg">
 
 </br>
 </br>
