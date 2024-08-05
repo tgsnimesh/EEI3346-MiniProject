@@ -86,15 +86,15 @@ provide a seamless user experience, enhancing engagement on
 the website.</p>
 <ul>
   <li>
-    <h3>Scroll to up button functionality </h3>
+    <h3>Scroll to up button</h3>
     <img src="./read-me-res/Web capture_14-5-2024_20408_.jpeg">
   </li>
   <li>
-    <h3>Upcoming event functionality </h3>
+    <h3>Upcoming event</h3>
     <img src="./read-me-res/Web capture_14-5-2024_204021_.jpeg">
   </li>
   <li>
-    <h3>Add comment functionality</h3>
+    <h3>Add comment</h3>
     <img src="./read-me-res/Web capture_14-5-2024_204041_.jpeg">
   </li>
 </ul>
