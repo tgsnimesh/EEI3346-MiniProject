@@ -1,4 +1,4 @@
-<h2>Understanding Water Pollution.</h2>
+<!-- <h2>Understanding Water Pollution.</h2>
 <p>Water pollution happens when harmful things like chemicals, trash, and sewage get into rivers, lakes, and oceans, making the water dirty and unsafe for plants, animals, and people. It's a big 
 problem because clean water is essential for drinking, swimming, and supporting life. Protecting our waterways from pollution is crucial for the health of our environment and communities.</p>
 
@@ -24,7 +24,7 @@ pollution by littering plastics and garbage into the lake. </p>
 <p>Surrounding homes and businesses may unknowingly contribute to 
 water pollution by directing their wastewater or drainage systems 
 directly into the lake.</p>
-
+-->
 </br>
 </br>
 <h2>Architectural diagram</h2>
